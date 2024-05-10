@@ -1,13 +1,20 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import './App.css';
+import AppRoutes from "./components/Routes/Routes";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
     return (
         <div >
-            App
+            <Header/>
+            <AppRoutes />
+            <Footer />
         </div>
     );
 }
 
 export default App;
+
 
