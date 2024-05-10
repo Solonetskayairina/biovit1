@@ -1,9 +1,9 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import './App.css';
-import AppRoutes from "./components/Routes/Routes";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import AppRoutes from "./components/Routes/Routes";
 
 const App = () => {
     return (
@@ -16,5 +16,4 @@ const App = () => {
 }
 
 export default App;
-
 
